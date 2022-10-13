@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color:white;
+}
+/* specific to all table tags */
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border:solid 2px red;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+/* td,th clubbing/grouping to tag selectors together */
+td,th{
+    border: solid 1px yellow;
+    text-align: left;    
+}
+/* th{
+    width: 10%;
+} */
+/* tr:nth-child(even){
+    color:orange;
+    text-decoration: underline;   
+} */
+
+tr:nth-col(2n+1){
+    color:yellowgreen;
+    font-size: large;
+    font-weight: bold;    
+}
+tr:nth-child(2) {
+    background: red;
+  }
+
+  img{
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  p {
+    
+  }
+
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Table Type colspan+rowspan</h1>
+        <table>
+            <tr>
+                <th>OrderId</th>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Unit price</th>
+                <th>Total Item price</th>
+            </tr>
+            <tr> 
+                <td rowspan="3">O1001</td>               
+                <td>Pepsi 500ml</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Pepsi 500ml</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                
+                <td colspan="3" >Total Order Price</td>
+                <td>250</td>
+            </tr>
+            <tr> 
+                <td rowspan="3">O1002</td>               
+                <td>Pepsi 500ml</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Pepsi 500ml</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                
+                <td colspan="3" >Total Order Price</td>
+                <td>250</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h1>Table Type colspan</h1>
+        <table>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Unit price</th>
+                <th>Total Item price</th>
+            </tr>
+            <tr>
+                <td>Pepsi 500ml</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Pepsi 500ml</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total Order Price</td>
+                <td>250</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div>
+        <h1>Table Type 1</h1>
+    <table>
+        <tr >
+            <th >Column1</th>
+            <th >Column2</th>
+            <th >Column3</th>
+        </tr>
+        <tr >
+            <td >Data 1</td>
+            <td >Data 2</td>
+            <td >Data 3</td>
+        </tr>
+    </table>
+</div>
+    <div>
+        <h1>Table Type 1</h1>
+    <table>
+        <tr class="row">
+            <th class="column">Column1</th>
+            <th class="column">Column2</th>
+            <th class="column">Column3</th>
+        </tr>
+        <tr class="row">
+            <td class="column">Data 1</td>
+            <td class="column">Data 2</td>
+            <td class="column">Data 3</td>
+        </tr>
+    </table>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="column">div.column1</div>
+        <div class="column">div.column2</div>
+    </div>
+    <div class="row">
+        <div class="column">data1</div>
+        <div class="column">data2</div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color:white;
+}
+/* grouping selectors */
+h1,h2,h6{
+    background-color: maroon;
+    color:aqua;
+}
+h2{
+    text-decoration: underline;
+}
+/* parent->child only applicable to h2 which are inside section */
+section h2{
+    border:solid 2px yellow;
+    text-align: center;
+    
+}
+

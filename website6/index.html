@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>::before selector example</h2>
+    <p>"Be or not to be".</p>
+
+    <h2>:dir() selector example</h2>
+    <div dir="rtl">
+      <span>example1</span>
+      <div dir="ltr">
+        example2
+        <div dir="auto"> ففي </div>
+      </div>
+    </div>
+    <article>
+        <h1>This is the article surrounding below p tag</h1>
+        <p>
+            This is demo of article>p
+        </p>        
+    </article>
+    <p>p1</p>
+	<p>p2</p>
+	<p>p3</p>
+	<p>p4</p>
+	<p>p5</p>
+    <nav>
+       <li><a href="http://www.google.com">Google</a></li>
+       <li><a href="http://www.google.com">Google</a></li>
+       <li><a href="http://www.google.com">Google</a></li>
+       <li><a href="http://www.google.com">Google</a></li>
+    </nav>
+
+    <style>
+        nav{
+            background-color: yellow;
+            border:solid 2px red;
+            width: 100%;
+            height:20%;
+
+        }
+     li{
+            border: solid 2px yellow;
+        }
+        nav>li{
+            background-color: red;
+            color:navy;
+        }
+        h1+p{
+            background-color: red;
+            color:white;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color:white;
+}
+nav ul{
+    display: inline-flexbox;
+    border:solid 2px yellowgreen;
+    height:2em;
+    text-decoration: none;
+    width: 100%;
+    margin: 0.8rem;
+}
+/* ul{
+    text-decoration: none;
+} */
+li{
+    float:left;
+    list-style: none;    
+    margin-top:0.5em;
+    margin-bottom:0;
+}
+.links-list a{
+    background-color: yellowgreen;
+    border:solid 1px red;
+    color:navy;
+    padding: 0.2em;
+    width: fit-content;
+}
+.links-list a:hover{
+    background-color: orange;
+    color:magenta;
+}
+
+/* Box  */
+.box {
+  background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.2) 39%,
+        rgba(51, 56, 57, 1) 96%
+      ) center center / 400px 200px no-repeat, url(big-star.png) center
+      no-repeat, rebeccapurple;
+}
+.box2 {
+    background-color: #567895;
+  }
+  
+  h2 {
+    background-color: black;
+    color: white;
+  }
+  span {
+    background-color: rgba(255,255,255,.5);
+  }
+  box3 {
+    height: auto;
+    width: auto;
+  }
+  .a {
+    background-image: url('http://127.0.0.1:5500/hm_headshot/website8/images/favicon-16x16.png') ;
+    
+  }
+  
+  .b {
+    background-image: url('http://127.0.0.1:5500/hm_headshot/website8/images/favicon-32X32.png');
+    background-repeat: repeat-y;
+  }
+  #p1{
+    border:solid 2px red;
+    writing-mode:horizontal-tb;
+  }
+  #p2{
+    border:solid 2px blue;
+    writing-mode:vertical-lr;
+  }
+  #p3{
+    border:solid 2px green;
+    writing-mode:vertical-rl;
+  }
